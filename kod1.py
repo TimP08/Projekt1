@@ -1,3 +1,3 @@
-print ("hej")
-print("aaa")
-print ("aaaaaaaaaaaaaa")
+x = int(input("välj ett heltal: "))
+
+print (x + 20)
