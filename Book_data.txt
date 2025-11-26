@@ -1,3 +1,9 @@
-bok 1, mateo, 1
-bok 2, Alex, 0
-bok 3, Martin, 0
+Mio min Mio, Astrid Lindgren, 0
+1984, George Orwell, 1
+Liftarens guide till galaxen, Douglas Adams, 0
+Fiskar utan fötter, Elin Olofsson, 0
+Snabba cash, Jens Lapidus, 1
+Gone Girl, Gillian Flynn, 0
+Harry Potter och de vises sten, J.K. Rowling, 1
+Den tatuerade damen, Stieg Larsson, 1
+En man som heter Ove, Fredrik Backman, 0
