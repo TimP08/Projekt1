@@ -30,6 +30,21 @@ class Library:
         for i, book in enumerate(self.books):
             print(f"{i+1}. {book}")
 
+   
+   # Skriver ut utlånade böcker  
+    def list_borrowed_books(self):
+        print("\nUtlånade böcker:")
+        borrowed_books = [book for book in self.books if book.borrowed]
+
+        if not borrowed_books:
+            print("Inga böcker är utlånade.")
+            return None
+
+        for i, book in enumerate(borrowed_books):
+            print(f"{i+1}. {book}")
+
+        return borrowed_books
+
     # Lånar bok
     def borrow_book(self):
         self.list_books()
@@ -51,12 +66,14 @@ class Library:
             print("Boken är redan utlånad.")
         else:
             book.borrowed = True
-            self.save_books()
-            print(f"Du har nu lånat '{book.title}'.")
 
-    # Lämnar tillbaka bok
+        
     def return_book(self):
-        self.list_books()
+        borrowed_books = self.list_borrowed_books()
+        
+        if borrowed_books is None:
+            return
+
         choice = input("\nVilken bok vill du lämna tillbaka? (nummer): ")
 
         if not choice.isdigit():
@@ -76,5 +93,4 @@ class Library:
         else:
             book.borrowed = False
             self.save_books()
-            print(f"Du har nu lämnat tillbaka '{book.title}'.")
-
+  
