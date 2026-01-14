@@ -11,7 +11,7 @@ def menu():
         print("4. Inspektera en bok")
         print("5. Avsluta")
 
-        choice = input("Välj ett alternativ (1-4): ")
+        choice = input("Välj ett alternativ (1-5): ")
 
         if choice == "1":
             lib.list_books()

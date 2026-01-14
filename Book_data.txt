@@ -1,9 +1,9 @@
-Mio min Mio, Astrid Lindgren, 0
-1984, George Orwell, 1
-Liftarens guide till galaxen, Douglas Adams, 0
-Fiskar utan fötter, Elin Olofsson, 0
-Snabba cash, Jens Lapidus, 1
-Gone Girl, Gillian Flynn, 0
-Harry Potter och de vises sten, J.K. Rowling, 0
-Den tatuerade damen, Stieg Larsson, 1
-En man som heter Ove, Fredrik Backman, 1
+1|Mio min Mio, Astrid Lindgren, 1
+2|1984, George Orwell, 0
+3|Liftarens guide till galaxen, Douglas Adams, 1
+4|Fiskar utan fötter, Elin Olofsson, 0
+5|Snabba cash, Jens Lapidus, 1
+6|Gone Girl, Gillian Flynn, 0
+7|Harry Potter och de vises sten, J.K. Rowling, 0
+8|Den tatuerade damen, Stieg Larsson, 1
+9|En man som heter Ove, Fredrik Backman, 1

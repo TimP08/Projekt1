@@ -4,7 +4,6 @@ class Book:
         self.author = author
         self.borrowed = bool(int(borrowed))
 
-
     def __str__(self):
         return f"{self.title}, {self.author}, {self.borrowed}"
 
